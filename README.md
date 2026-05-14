@@ -1,4 +1,4 @@
-# doc-qa-pipeline
+# Multimodal Document Extraction API
 
 ![Node.js](https://img.shields.io/badge/Node.js-24%2B-339933)
 ![TypeScript](https://img.shields.io/badge/TypeScript-ESM-3178C6)
@@ -12,7 +12,7 @@ O projeto recebe arquivos em `multipart/form-data`, prepara conteúdo textual/es
 
 ## Visão Geral
 
-O `doc-qa-pipeline` foi desenhado para analisar documentos e imagens de forma flexível. Ele não depende de schema fixo por tipo documental: o usuário envia um `prompt` dinâmico e a API retorna os campos identificados no conteúdo.
+O projeto foi desenhado para analisar documentos e imagens de forma flexível. Ele não depende de schema fixo por tipo documental: o usuário envia um `prompt` dinâmico e a API retorna os campos identificados no conteúdo.
 
 Casos de uso típicos:
 
