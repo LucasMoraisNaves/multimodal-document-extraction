@@ -1,0 +1,38 @@
+{
+  "name": "doc-qa-pipeline",
+  "version": "1.0.0",
+  "description": "Multimodal document extraction and analysis API with Fastify, LangGraph, LangChain, OCR, and OpenRouter",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "node --env-file .env src/index.ts",
+    "dev": "node --watch --inspect --env-file .env src/index.ts",
+    "test": "node --env-file .env --test tests/**/*.test.ts",
+    "test:dev": "node --inspect --env-file .env --test --watch tests/**/*.test.ts",
+    "langgraph:serve": "npx @langchain/langgraph-cli dev"
+  },
+  "keywords": [
+    "langchain",
+    "document-analysis",
+    "document-extraction",
+    "openrouter"
+  ],
+  "author": "LucasNaves",
+  "license": "MIT",
+  "dependencies": {
+    "@fastify/multipart": "^9.0.3",
+    "@langchain/core": "^1.1.27",
+    "@langchain/langgraph": "^1.1.5",
+    "@langchain/openai": "^1.2.9",
+    "fastify": "^5.7.4",
+    "pdf-parse": "^2.4.5",
+    "tesseract.js": "^7.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.12"
+  },
+  "engines": {
+    "node": ">=24.10.0"
+  }
+}
