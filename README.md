@@ -335,6 +335,7 @@ Regras aplicadas no prompt interno:
 - não inventar campos;
 - não completar valores ilegíveis;
 - não transformar inferência visual em fato.
+- não mantém o arquivo enviado salvo.
 
 ## Troubleshooting
 
