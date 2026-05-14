@@ -358,13 +358,6 @@ Regras aplicadas no prompt interno:
 - Opção de retornar texto OCR bruto em modo debug.
 - Estratégias específicas para documentos brasileiros sem fixar schema rígido.
 
-## Contribuição
-
-1. Crie uma branch com escopo claro.
-2. Mantenha o fluxo Fastify + LangGraph + OpenRouter.
-3. Evite adicionar dependências sem necessidade.
-4. Rode `npm test` antes de abrir PR.
-
 ## Licença
 
 MIT.
