@@ -1,5 +1,5 @@
 {
-  "name": "doc-qa-pipeline",
+  "name": "multimodal-document-extraction",
   "version": "1.0.0",
   "description": "Multimodal document extraction and analysis API with Fastify, LangGraph, LangChain, OCR, and OpenRouter",
   "type": "module",
